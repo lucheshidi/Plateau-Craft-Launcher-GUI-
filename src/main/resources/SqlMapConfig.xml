@@ -1,0 +1,4 @@
+<!--配置LOG4J-->
+<settings>
+    <setting name="logImpl" value="log4j"/>
+</settings>

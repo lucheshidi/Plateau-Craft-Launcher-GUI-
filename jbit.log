@@ -1,0 +1,53 @@
+2024-09-25 18:04:39net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:04:39net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:04:53net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:04:53net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:05:06net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:05:06net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:05:17net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:05:17net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:05:21net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:05:21net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:05:47net.plateau.main.testLog4j(main.java:19) main.java INFO INFO(消息)
+2024-09-25 18:05:47net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:05:47net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:05:58net.plateau.main.testLog4j(main.java:17) main.java DEBUG DEBUG(调试)
+2024-09-25 18:05:58net.plateau.main.testLog4j(main.java:19) main.java INFO INFO(消息)
+2024-09-25 18:05:58net.plateau.main.testLog4j(main.java:21) main.java WARN WARN(警告)
+2024-09-25 18:05:58net.plateau.main.testLog4j(main.java:23) main.java ERROR ERROR(错误)
+2024-09-25 18:12:25net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:12:25net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:12:25net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:12:25net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:18:22net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:18:22net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:18:22net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:18:22net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:19:35net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:19:35net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:19:35net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:19:35net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:20:13net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:20:13net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:20:13net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:20:13net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:22:11net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:22:11net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:22:11net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:22:11net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:23:37net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:23:37net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:23:37net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:23:37net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:24:57,808[yyyy-MM-dd-HH:mm:ss]net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:24:57,810[yyyy-MM-dd-HH:mm:ss]net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:24:57,810[yyyy-MM-dd-HH:mm:ss]net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:24:57,811[yyyy-MM-dd-HH:mm:ss]net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+2024-09-25 18:27:16,600[YYYY-MM-DD-HH:MM:SS]: net.plateau.Main.main(Main.java:24)2024-09-25 18:27:16,604[YYYY-MM-DD-HH:MM:SS]: net.plateau.Main.main(Main.java:26)2024-09-25 18:27:16,604[YYYY-MM-DD-HH:MM:SS]: net.plateau.Main.main(Main.java:28)2024-09-25 18:27:16,604[YYYY-MM-DD-HH:MM:SS]: net.plateau.Main.main(Main.java:30)2024:9月:25  :  18:33:13 , 465[net.plateau.Main][DEBUG]2024:9月:25  :  18:33:13 , 465[net.plateau.Main][INFO]2024:9月:25  :  18:33:13 , 465[net.plateau.Main][WARN]2024:9月:25  :  18:33:13 , 465[net.plateau.Main][ERROR]2024:9月:25  :  18:33:24 , 886[net.plateau.Main][DEBUG]2024:9月:25  :  18:33:24 , 886[net.plateau.Main][INFO]2024:9月:25  :  18:33:24 , 886[net.plateau.Main][WARN]2024:9月:25  :  18:33:24 , 886[net.plateau.Main][ERROR]2024:9月:25  :  18:35:12 , 432[net.plateau.Main][DEBUG]2024:9月:25  :  18:35:12 , 433[net.plateau.Main][INFO]2024:9月:25  :  18:35:12 , 433[net.plateau.Main][WARN]2024:9月:25  :  18:35:12 , 433[net.plateau.Main][ERROR]2024-09-25 18:40:07net.plateau.Main.main(Main.java:24) Main.java DEBUG Test [DEBUG] from log4j,
+2024-09-25 18:40:07net.plateau.Main.main(Main.java:26) Main.java INFO Test [INFO] from log4j
+2024-09-25 18:40:07net.plateau.Main.main(Main.java:28) Main.java WARN Test [WARN] from log4j
+2024-09-25 18:40:07net.plateau.Main.main(Main.java:30) Main.java ERROR Test [ERROR] from log4j
+DEBUG - Test [DEBUG] from log4j,
+INFO - Test [INFO] from log4j
+WARN - Test [WARN] from log4j
+ERROR - Test [ERROR] from log4j
