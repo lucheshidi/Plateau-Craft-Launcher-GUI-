@@ -8,8 +8,6 @@
 package net.plateau;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.PatternLayout;
-import org.junit.jupiter.api.Test;
 
 import java.awt.*;
 import java.awt.BorderLayout;
