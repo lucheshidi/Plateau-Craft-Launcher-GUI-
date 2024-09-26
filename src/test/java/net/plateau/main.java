@@ -1,33 +1,61 @@
 package net.plateau;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.*;
+import java.awt.BorderLayout;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
 
-public class main {
-    //定义一个Logger对象
-    static Logger logger=Logger.getLogger(main.class);
+public class main extends JFrame {
+
+    private void init() {
+        this.setLayout(new BorderLayout());
+        JPanel topPanel = new JPanel();
+        final JLabel topLabel = new JLabel("North");
+        topPanel.add(topLabel);
+        this.add(topPanel, BorderLayout.NORTH);
+
+        JTabbedPane tabbedPane = new JTabbedPane();
+        JPanel firstTabCont = new JPanel();
+        firstTabCont.add(new JLabel("First"));
+        tabbedPane.addTab("First", firstTabCont);
+
+        JPanel secondTabCont = new JPanel();
+        secondTabCont.add(new JLabel("Second"));
+        tabbedPane.addTab("Second", secondTabCont);
+
+        this.add(tabbedPane, BorderLayout.CENTER);
+
+        JPanel bottomPanel = new JPanel();
+        final JLabel bottomLabel = new JLabel("South");
+        bottomPanel.add(bottomLabel);
+        this.add(bottomPanel, BorderLayout.SOUTH);
+
+        tabbedPane.addChangeListener(evt -> {
+            JTabbedPane pane = (JTabbedPane) evt.getSource();
+            int selectedIndex = pane.getSelectedIndex();
+            if (selectedIndex == 0) {
+                topLabel.setText("");
+                topLabel.setText("Hi");
+
+                bottomLabel.setText("");
+                bottomLabel.setText("Bye");
+            } else {
+                topLabel.setText("");
+                topLabel.setText("Bye");
+
+                bottomLabel.setText("");
+                bottomLabel.setText("Hi");
+            }
+
+        });
+        this.pack();
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setVisible(true);
+    }
 
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
-        try {
-            System.out.println("请输入一个数");
-            int num1=input.nextInt();//InputMismatchException  Exception
-            System.out.println("再输入一个数");
-            int num2=input.nextInt();//InputMismatchException
-            int result=num1/num2;//ArithmeticException
-            //使用logger对象输出结果，该结果会保存到日志文件中
-            logger.debug("结果是"+result);
-        }catch(InputMismatchException ex) {
-            logger.error("只能输入数字");
-        }catch(ArithmeticException ex) {
-            logger.error("除数不能为0");
-        }catch (Exception e) {
-            logger.error("其它异常");
-        }finally {
-            logger.debug("程序结束");
-        }
+        new main().init();
     }
 }
