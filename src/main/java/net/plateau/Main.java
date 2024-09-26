@@ -1,6 +1,7 @@
 /**
  * @author lucheshidi
- * @apiNote
+ * @apiNote maven
+ * @since 2024.9
  */
 
 package net.plateau;
