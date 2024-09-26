@@ -2,6 +2,7 @@
  * @author lucheshidi
  * @apiNote maven
  * @since 2024.9
+ * Copyright lucheshidi
  */
 
 package net.plateau;
