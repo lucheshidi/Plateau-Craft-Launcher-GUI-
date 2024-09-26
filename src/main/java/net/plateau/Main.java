@@ -30,7 +30,7 @@ public class Main {
         //记录error日志
         logger.error("Test [ERROR] from log4j");
 
-        Runtime.getRuntime().addShutdownHook(new Thread(){
+        Runtime.getRuntime().addShutdownHook(new Thread("main"){
             @Override
             public void run() {
                 super.run();
@@ -44,6 +44,7 @@ public class Main {
         JLabel games_lab, marketplace_lab, online_lab, settings_lab, download_lab;
         //JPanel 和 JLabel 必须一起用, 否则成屎山代码
         JTabbedPane jtbp = new JTabbedPane();//创建一个选项卡面板布局
+        jtbp.setTabPlacement(JTabbedPane.BOTTOM);
         //开始定义
         //JLabel:
         games_lab = new JLabel("Choose a version to launch");
@@ -80,7 +81,7 @@ public class Main {
         main_window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         main_window.setVisible(true);
 
-        main_window.setSize(900,500);//窗体屏幕长和宽
+        main_window.setSize(880,500);//窗体屏幕长和宽
         main_window.setLocationRelativeTo(null);//窗口置于屏幕中央
         //f.setLocation(300, 300);//窗口位置
         //f.setResizable(false);//设置窗体是否可以调整大小
