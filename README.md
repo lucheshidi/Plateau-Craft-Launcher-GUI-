@@ -1,6 +1,7 @@
 ===========================================================================
 This is a Minecraft Free Launcher like HMCL Launcher
-HMCL:
+
+HMCL Launcher:
 https://github.com/HMCL-dev/HMCL
 
 But, want to make a Minecraft Launcher is very,very hard!so I need you.
