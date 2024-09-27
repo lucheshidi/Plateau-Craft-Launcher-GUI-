@@ -2,6 +2,7 @@
     <img src="./ptcl.png">
     <br /><br />
 </div>
+
 # 💎 PTCL Launcher 💎
 
 English | [中文](README-cn.md)
