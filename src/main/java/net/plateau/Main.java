@@ -17,11 +17,12 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
-public class Main {
-
+public class Main
+{
     private static Logger logger = Logger.getLogger(Main.class);
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         //记录debug日志
         logger.debug("Test [DEBUG] from log4j,");
         //记录info日志
@@ -31,11 +32,11 @@ public class Main {
         //记录error日志
         logger.error("Test [ERROR] from log4j");
 
-        Runtime.getRuntime().addShutdownHook(new Thread(){
+        Runtime.getRuntime().addShutdownHook(new Thread("exit"){
             @Override
             public void run() {
                 super.run();
-                logger.warn("Plateau Launcher will be EXIT!");
+                logger.warn("User closed, Plateau is EXIT!");
             }
         });
 
