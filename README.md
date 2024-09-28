@@ -9,7 +9,7 @@ English | [中文](README-cn.md)
 
 ## Introduction
 PTCL is a Minecraft Free Launcher.
-Now, we updated 3 alpha version
+Now, we updated some alpha version
 You can Download it. If you try it, you will think:What? This is Minecraft Launcher?
 Yes, Now We only add a screen and some tab
 But, we know, PTCL will be good!
