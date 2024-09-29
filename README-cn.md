@@ -23,11 +23,17 @@ PTCL 是一个免费的 Minecraft 启动器。
 ## 如何构建？
 ### 你需要安装 Git 和 maven
 1.检查你的Git 和 maven
+
 2.选择构建启动器的位置
+
 3.按右键，然后按“Open Git Bash here”
+
 4.输入 “git clone https://github.com/lucheshidi/Plateau-Craft-Launcher.git”
+
 5.完成后，该文件夹将生成一个名为：Plateau-Craft-Launcher 的文件夹
+
 6.现在你可以打开 git bash 到 Plateau-Craft-Launcher 文件夹，输入“mvn clean package”
+
 7.转到新文件夹的 “target” 文件夹，会有一个 Jar 文件，现在你就可以使用 plateau 启动器了
 
 ## 谢谢~
