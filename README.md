@@ -28,7 +28,7 @@ you can in my issues to send bugs or give our some helps
 
 3.Press Right Button and press "Open Git Bash here".
 
-4.input "git clone https://github.com/lucheshidi/Plateau-Craft-Launcher.git".
+4.input "[git clone https://github.com/lucheshidi/Plateau-Craft-Launcher.git]()".
 
 5.If done, the folder will generate a folder named:Plateau-Craft-Launcher.
 
