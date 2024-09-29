@@ -28,7 +28,7 @@ PTCL 是一个免费的 Minecraft 启动器。
 
 3.按右键，然后按“Open Git Bash here”
 
-4.输入 “[git clone https://github.com/lucheshidi/Plateau-Craft-Launcher.git]”
+4.输入 “[git clone https://github.com/lucheshidi/Plateau-Craft-Launcher.git]()”
 
 5.完成后，该文件夹将生成一个名为：Plateau-Craft-Launcher 的文件夹
 
